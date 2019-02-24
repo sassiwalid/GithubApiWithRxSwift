@@ -10,6 +10,6 @@ import Foundation
 
 // MARK - URLS
 let trendingRepoURL = "https://api.github.com/search/repositories?q=QUERY&sort=stars&order=desc"
-let searchURL = "https://api.github.com/search/repositories?q"
+let searchURL = "https://api.github.com/search/repositories?q="
 let starsDescendingSegment = "&sort=stars&order=desc"
 let readmSegment = "/blob/master/README.md"
