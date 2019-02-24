@@ -10,12 +10,12 @@ import UIKit
 
 class RoundedBorderButton: UIButton {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0)
+        layer.cornerRadius = frame.height / 3
+        layer.borderWidth = 3
+        layer.borderColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
     }
-    */
 
 }
